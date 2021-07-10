@@ -63,6 +63,11 @@ a{
     grid-column-start: 7;
     grid-column-end: 7;
 }
+.confid{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 2;
+}
 .largo{
     font-size: 18px;
 }
