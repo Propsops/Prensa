@@ -59,6 +59,10 @@ a{
     grid-column-start: 6;
     grid-column-end: 6;
 }
+.periodistad{
+    grid-column-start: 7;
+    grid-column-end: 7;
+}
 .largo{
     font-size: 18px;
 }
