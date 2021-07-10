@@ -68,6 +68,11 @@ a{
     grid-column-end: 1;
     grid-row: 2;
 }
+.esp{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row: 2;
+}
 .largo{
     font-size: 18px;
 }
