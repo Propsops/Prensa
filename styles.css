@@ -36,32 +36,32 @@ a{
     
 }
 .elmundo{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.okdiario{
     grid-column-start: 2;
     grid-column-end: 2;
 }
-.okdiario{
+.elconfidencial{
     grid-column-start: 3;
     grid-column-end: 3;
 }
-.elconfidencial{
+.elpais{
     grid-column-start: 4;
     grid-column-end: 4;
 }
-.elpais{
+.vozpopuli{
     grid-column-start: 5;
     grid-column-end: 5;
 }
-.vozpopuli{
+.esdiario{
     grid-column-start: 6;
     grid-column-end: 6;
 }
-.esdiario{
+.periodistad{
     grid-column-start: 7;
     grid-column-end: 7;
-}
-.periodistad{
-    grid-column-start: 8;
-    grid-column-end: 8;
 }
 .largo{
     font-size: 18px;
