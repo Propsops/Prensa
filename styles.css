@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+hr{
+    border: 3px solid black;
+    border-radius: 5px;
+    
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+div{
+    max-width: 250px;
+    max-height: 148px;
+}
+a{
+    position: relative;
+}
+.container{
+    margin-top: 10px;
+    display: grid;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    
+}
+.elmundo{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.okdiario{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.elconfidencial{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.elpais{
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+.vozpopuli{
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+.esdiario{
+    grid-column-start: 6;
+    grid-column-end: 6;
+}
+.largo{
+    font-size: 18px;
+}
