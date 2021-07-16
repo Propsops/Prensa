@@ -21,10 +21,7 @@ p{
     font-size: 20px;
     
 }
-div{
-    max-width: 250px;
-    max-height: 148px;
-}
+
 a{
     position: relative;
 }
@@ -33,7 +30,12 @@ a{
     display: grid;
     grid-column-gap: 25px;
     grid-row-gap: 25px;
-    
+    max-width: 100%;
+    max-height: 100%;
+}
+.container div{
+    max-width: 125px;
+    margin: auto;
 }
 .elmundo{
     grid-column-start: 1;
@@ -75,4 +77,152 @@ a{
 }
 .largo{
     font-size: 18px;
+}
+@media only screen and (max-width: 1032px){
+    .periodistad{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start:  2;
+        grid-row-end: 2;
+    }
+    .confid{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row: 2;
+    }
+    .esp{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row: 2;
+    }
+}
+@media only screen and (max-width: 878px){
+    .esdiario{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start:  2;
+        grid-row-end: 2;
+    }
+    .periodistad{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row: 2;
+    }
+    .confid{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row: 2;
+    }
+    .esp{
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row: 2;
+    }
+}
+@media only screen and (max-width: 726px){
+    .vozpopuli{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start:  2;
+        grid-row-end: 2;
+    }
+    .esdiario{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row: 2;
+    }
+    .periodistad{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row: 2;
+    }
+    .confid{
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row: 2;
+    }
+    .esp{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row: 3;
+    }
+}
+@media only screen and (max-width: 578px){
+    .elpais{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start:  2;
+        grid-row-end: 2;
+    }
+    .vozpopuli{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row: 2;
+    }
+    .esdiario{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row: 2;
+    }
+    .periodistad{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row: 3;
+    }
+    .confid{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row: 4;
+    }
+    .esp{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row: 3;
+    }
+}
+@media only screen and (max-width: 427px){
+    .elconfidencial{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start:  2;
+        grid-row-end: 2;
+    }
+    .elpais{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row: 2;
+    }
+    .vozpopuli{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row: 3;
+    }
+    .esdiario{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row: 3;
+    }
+    .periodistad{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row: 4;
+    }
+    .confid{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row: 4;
+    }
+    .esp{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row: 5;
+    }
+}
+@media only screen and (max-width: 276px){
+    .container{
+        display: block;
+    }
+    .container div{
+        margin-top: 10px;
+    }
 }
